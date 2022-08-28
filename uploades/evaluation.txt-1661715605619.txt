@@ -1,0 +1,219 @@
+//for gender=male
+example> db.Database.find({gender:"Male"})
+[
+  {
+    _id: ObjectId("6303c335952a96987f81a94f"),
+    id: 3,
+    full_name: 'Austin Abramson',
+    age: 41,
+    gender: 'Male',
+    balance: 22851.32,
+    native: 'Japan',
+    relocate_to: 'France',
+    family_members: 1
+  },
+  {
+    _id: ObjectId("6303c335952a96987f81a950"),
+    id: 4,
+    full_name: 'Jacqueline Dargan',
+    age: 30,
+    gender: 'Male',
+    balance: 96103.99,
+    native: 'United States',
+    relocate_to: 'Russia',
+    family_members: 1
+  },
+  {
+    _id: ObjectId("6303c335952a96987f81a952"),
+    id: 6,
+    full_name: 'Dennie Mander',
+    age: 54,
+    gender: 'Male',
+    balance: 82066.1,
+    native: 'United States',
+    relocate_to: 'Russia',
+    family_members: 3
+  },
+  {
+    _id: ObjectId("6303c335952a96987f81a953"),
+    id: 7,
+    full_name: 'Obie Finders',
+    age: 44,
+    gender: 'Male',
+    balance: 45655.22,
+    native: 'United States',
+    relocate_to: 'Russia',
+    family_members: 2
+  },
+  {
+    _id: ObjectId("6303c335952a96987f81a955"),
+    id: 9,
+    full_name: 'Lissie Jorin',
+    age: 28,
+    gender: 'Male',
+    balance: 75572.3,
+    native: 'Japan',
+    relocate_to: 'France',
+    family_members: 2
+  },
+  {
+    _id: ObjectId("6303c335952a96987f81a957"),
+    id: 11,
+    full_name: 'Alden Hovenden',
+    age: 27,
+    gender: 'Male',
+    balance: 79110.83,
+    native: 'United States',
+    relocate_to: 'France',
+    family_members: 1
+  },
+  {
+    _id: ObjectId("6303c335952a96987f81a959"),
+    id: 13,
+    full_name: 'Deeanne Cheshire',
+    age: 21,
+    gender: 'Male',
+    balance: 86093.17,
+    native: 'United States',
+    relocate_to: 'Russia',
+    family_members: 2
+  },
+  {
+    _id: ObjectId("6303c335952a96987f81a961"),
+    id: 21,
+    full_name: 'Pall Entwhistle',
+    age: 40,
+    gender: 'Male',
+    balance: 89740.26,
+    native: 'United Kingdom',
+    relocate_to: 'Sweden',
+    family_members: 1
+  },
+  {
+    _id: ObjectId("6303c335952a96987f81a962"),
+    id: 22,
+    full_name: 'Charissa Beushaw',
+    age: 48,
+    gender: 'Male',
+    balance: 24081.51,
+    native: 'Japan',
+    relocate_to: 'Russia',
+    family_members: 1
+  },
+  {
+    _id: ObjectId("6303c335952a96987f81a967"),
+    id: 27,
+    full_name: 'Millard Corwood',
+    age: 39,
+    gender: 'Male',
+    balance: 46678.2,
+    native: 'Japan',
+    relocate_to: 'Russia',
+    family_members: 3
+  },
+  {
+    _id: ObjectId("6303c335952a96987f81a969"),
+    id: 29,
+    full_name: 'Bentley Manshaw',
+    age: 47,
+    gender: 'Male',
+    balance: 50995.69,
+    native: 'United States',
+    relocate_to: 'France',
+    family_members: 1
+  }
+]
+
+//for japananese
+example> db.Database.find({native:"Japan"})
+
+ [
+...   {
+...     _id: ObjectId("6303c335952a96987f81a94e"),
+...     id: 2,
+...     full_name: 'Niccolo Phethean',
+...     age: 22,
+...     gender: 'Female',
+...     balance: 57087.13,
+...     native: 'Japan',
+...     relocate_to: 'Russia',
+...     family_members: 2
+...   },
+...   {
+...     _id: ObjectId("6303c335952a96987f81a94f"),
+...     id: 3,
+...     full_name: 'Austin Abramson',
+...     age: 41,
+...     gender: 'Male',
+...     balance: 22851.32,
+...     native: 'Japan',
+...     relocate_to: 'France',
+...     family_members: 1
+...   },
+...   {
+...     _id: ObjectId("6303c335952a96987f81a955"),
+...     id: 9,
+...     full_name: 'Lissie Jorin',
+...     age: 28,
+...     gender: 'Male',
+...     balance: 75572.3,
+...     native: 'Japan',
+...     relocate_to: 'France',
+...     family_members: 2
+...   },
+...   {
+...     _id: ObjectId("6303c335952a96987f81a95e"),
+...     id: 18,
+...     full_name: 'Dominique Hearon',
+...     age: 54,
+...     gender: 'Female',
+...     balance: 72510.59,
+...     native: 'Japan',
+...     relocate_to: 'Russia',
+...     family_members: 1
+...   },
+...   {
+...     _id: ObjectId("6303c335952a96987f81a962"),
+...     id: 22,
+...     full_name: 'Charissa Beushaw',
+...     age: 48,
+...     gender: 'Male',
+...     balance: 24081.51,
+...     native: 'Japan',
+...     relocate_to: 'Russia',
+...     family_members: 1
+...   },
+...   {
+...     _id: ObjectId("6303c335952a96987f81a963"),
+...     id: 23,
+...     full_name: 'Tabor Boswell',
+...     age: 40,
+...     gender: 'Female',
+...     balance: 48080.74,
+...     native: 'Japan',
+...     relocate_to: 'Russia',
+...     family_members: 2
+...   },
+...   {
+...     _id: ObjectId("6303c335952a96987f81a967"),
+...     id: 27,
+...     full_name: 'Millard Corwood',
+...     age: 39,
+...     gender: 'Male',
+...     balance: 46678.2,
+...     native: 'Japan',
+...     relocate_to: 'Russia',
+...     family_members: 3
+...   },
+...   {
+...     _id: ObjectId("6303c335952a96987f81a96a"),
+...     id: 30,
+...     full_name: 'Marshall Cormack',
+...     age: 31,
+...     gender: 'Female',
+...     balance: 48533.2,
+...     native: 'Japan',
+...     relocate_to: 'Russia',
+...     family_members: 3
+...   }
+... ]
